@@ -1,0 +1,16 @@
+Install RVM
+	Link: 
+
+Install Ruby version 1.9.2:
+	$ rvm install ruby-1.9.2
+
+Install bundler
+	$ sudo apt install ruby-bundler
+
+Install dependencies:
+	$ bundle install
+
+Dependencies:
+	rgss3 lib
+		clone it inside /source directory
+		$ git clone https://rogesson@bitbucket.org/rogesson/rgss3.git
